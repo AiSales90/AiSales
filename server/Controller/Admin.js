@@ -101,7 +101,7 @@ const job = cron.schedule(schedule, async () => {
 				if (jsonObject.email && jsonObject.email.length > 0) {
 					const maildata = {
 						to: jsonObject.email,
-						from: "techavtar.tech@gmail.com",
+						from: "digital.marketing.connection24@gmail.com",
 						subject: "Thanks for contacting us",
 						text: `Thanks for connecting with us.`,
 					};
