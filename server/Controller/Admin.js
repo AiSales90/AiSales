@@ -295,7 +295,7 @@ exports.GetAllVoices = async (req, res, next) => {
 		voices: [
 			// voice 1
 			{
-				voice_id: "cd156f05-3f98-4faf-a911-77331eb28e3a",
+				voice_id: "86812f09-28f0-4538-aa25-5d309e0e6e5d",
 				name: "Male",
 				is_custom: false,
 				reduce_latency: true,
@@ -332,7 +332,7 @@ exports.SingleCall = async (req, res, next) => {
 	const data = {
 		phone_number: "+" + countryCode + phoneNumber,
 		task: prompt,
-		voice_id: 1,
+		voice_id: voice,
 		reduce_latency: false,
 		transfer_phone_number: "+" + transferCountryCode + transferPhoneNumber,
 		// language: "german",
