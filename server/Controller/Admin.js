@@ -302,7 +302,7 @@ exports.GetAllVoices = async (req, res, next) => {
 			},
 			// voice 2
 			{
-				voice_id: "13843c96-ab9e-4938-baf3-ad53fcee541d",
+				voice_id: "cd156f05-3f98-4faf-a911-77331eb28e3a",
 				name: "Female",
 				is_custom: false,
 				reduce_latency: true,
